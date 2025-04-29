@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
 async function fetchPosts() {
-  const res = await fetch('/api/posts');
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/api/posts`);//fetch('/api/posts');
   const data = await res.json();
   return data;
 }
