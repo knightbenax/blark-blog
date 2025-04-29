@@ -2,9 +2,10 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { basePath } from '@/lib/utils';
 
 async function fetchPosts() {
-  const res = await fetch('/api/posts');
+  const res = await fetch(`${basePath}/api/posts`);
   const data = await res.json();
   return data;
 }
@@ -54,7 +55,7 @@ export default function HomePage() {
       <ul>
         {displayedPosts.map(({ slug, title, date }) => (
           <li key={slug} style={{ margin: '1rem 0' }}>
-            <Link href={`/${slug}`} style={{ color: 'blue', textDecoration: 'underline' }}>
+            <Link href={`${basePath}/${slug}`} style={{ color: 'blue', textDecoration: 'underline' }}>
               {title}
             </Link>
             <div style={{ fontSize: '0.8rem', color: 'gray' }}>{date}</div>
