@@ -1,47 +1,24 @@
-import { getAllPostSlugs, getPostData } from '@/lib/posts';
-import { notFound } from 'next/navigation';
+import { getPostData, getSortedPostsData } from '@/lib/posts';
+import { marked } from 'marked';
 
 export async function generateStaticParams() {
-  const posts = getAllPostSlugs();
-  return posts.map((post) => ({ slug: post.slug }));
-}
-
-export async function generateMetadata({ params }) {
-  const post = await getPostData(params.slug);
-
-  if (!post) {
-    return { title: 'Post Not Found' };
-  }
-
-  return {
-    title: post.title,
-    description: post.excerpt || post.contentHtml.slice(0, 150),
-    openGraph: {
-      title: post.title,
-      description: post.excerpt || post.contentHtml.slice(0, 150),
-      type: 'article',
-      url: `https://yourdomain.com/${post.slug}`, // replace yourdomain.com
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: post.title,
-      description: post.excerpt || post.contentHtml.slice(0, 150),
-    },
-  };
+  const posts = getSortedPostsData();
+  return posts.map((post) => ({
+    slug: post.slug,
+  }));
 }
 
 export default async function PostPage({ params }) {
-  const post = await getPostData(params.slug);
-
-  if (!post) {
-    notFound(); // This will show the Next.js 404 page automatically
-  }
+  const post = getPostData(params.slug);
 
   return (
-    <article style={{ padding: '2rem' }}>
+    <div style={{ padding: '2rem' }}>
       <h1 style={{ fontSize: '2rem', fontWeight: 'bold' }}>{post.title}</h1>
-      <div style={{ fontSize: '0.8rem', color: 'gray', marginBottom: '1rem' }}>{post.date}</div>
-      <div dangerouslySetInnerHTML={{ __html: post.contentHtml }} />
-    </article>
+      <div style={{ color: 'gray', marginBottom: '1rem' }}>{post.date}</div>
+      <div
+        dangerouslySetInnerHTML={{ __html: marked(post.content) }}
+        style={{ lineHeight: '1.6' }}
+      />
+    </div>
   );
 }
