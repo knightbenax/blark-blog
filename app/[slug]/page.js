@@ -9,6 +9,10 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }) {
   const post = await getPostData(params.slug);
 
+  if (!post) {
+    return { title: 'Post Not Found' };
+  }
+
   return {
     title: post.title,
     description: post.excerpt || post.contentHtml.slice(0, 150),
@@ -16,22 +20,21 @@ export async function generateMetadata({ params }) {
       title: post.title,
       description: post.excerpt || post.contentHtml.slice(0, 150),
       type: 'article',
-      url: `https://blark.app/blog/${post.slug}`
+      url: `https://yourdomain.com/${post.slug}`, // replace yourdomain.com
     },
     twitter: {
-      card: 'summary_larg_image',
+      card: 'summary_large_image',
       title: post.title,
-      description: post.excerpt || post.contentHtml.slice(0, 150)
-    }
+      description: post.excerpt || post.contentHtml.slice(0, 150),
+    },
   };
 }
-
 
 export default async function PostPage({ params }) {
   const post = await getPostData(params.slug);
 
   if (!post) {
-    notFound();
+    notFound(); // This will show the Next.js 404 page automatically
   }
 
   return (
