@@ -1,5 +1,6 @@
 import { getPostData, getSortedPostsData } from '@/lib/posts';
 import { marked } from 'marked';
+import Link from 'next/link';
 
 export async function generateStaticParams() {
   const posts = getSortedPostsData();
@@ -8,11 +9,22 @@ export async function generateStaticParams() {
   }));
 }
 
+export async function generateMetadata({ params }) {
+  const post = await getPostData(params.slug);
+
+  return {
+    title: post.title,
+    description: post.excerpt || '', // optional
+  };
+}
+
+
 export default async function PostPage({ params }) {
   const post = getPostData(params.slug);
 
   return (
     <div style={{ padding: '2rem' }}>
+      <Link href="/" style={{ color: 'blue', textDecoration: 'underline' }}>Back</Link>
       <h1 style={{ fontSize: '2rem', fontWeight: 'bold' }}>{post.title}</h1>
       <div style={{ color: 'gray', marginBottom: '1rem' }}>{post.date}</div>
       <div

@@ -9,6 +9,7 @@ async function fetchPosts() {
   return data;
 }
 
+
 export default function HomePage() {
   const [allPosts, setAllPosts] = useState([]);
   const [displayedPosts, setDisplayedPosts] = useState([]);
@@ -18,12 +19,14 @@ export default function HomePage() {
   const postsPerPage = 15;
 
   useEffect(() => {
+    document.title = "Blark's Blog";
     async function loadPosts() {
       const posts = await fetchPosts();
       setAllPosts(posts);
       setDisplayedPosts(posts.slice(0, postsPerPage));
     }
     loadPosts();
+    
   }, []);
 
   useEffect(() => {
@@ -52,12 +55,13 @@ export default function HomePage() {
     <div style={{ padding: '2rem' }}>
       <h1 style={{ fontSize: '2rem', fontWeight: 'bold' }}>Blog</h1>
       <ul>
-        {displayedPosts.map(({ slug, title, date }) => (
+        {displayedPosts.map(({ slug, title, date, excerpt }) => (
           <li key={slug} style={{ margin: '1rem 0' }}>
             <Link href={`/${slug}`} style={{ color: 'blue', textDecoration: 'underline' }}>
               {title}
             </Link>
             <div style={{ fontSize: '0.8rem', color: 'gray' }}>{date}</div>
+            <div style={{ fontSize: '0.8rem', color: 'gray' }}>{excerpt}</div>
           </li>
         ))}
       </ul>

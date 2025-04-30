@@ -1,6 +1,8 @@
 ---
 title: "Mastering the Art of Black and White Photography: The Power of Contrast"
+excerpt: ""
 date: "Mar 21, 2025"
+author: "Blark Team"
 ---
 
 Shot taken with BlarkBlack and white photography has a timeless appeal, often evoking a sense of nostalgia and simplicity. But don't be fooled - capturing striking black and white images requires more than just removing color. One of the most essential techniques in creating stunning black and white photos is understanding and using contrast effectively. Let's dive into how contrast can elevate your monochrome photography and some tips on mastering it.
