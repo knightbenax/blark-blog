@@ -2,9 +2,10 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import styles from './page.module.css'
 
 async function fetchPosts() {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/api/posts`);//fetch('/api/posts');
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/api/posts`); //fetch('/api/posts');
   const data = await res.json();
   return data;
 }
@@ -52,16 +53,16 @@ export default function HomePage() {
   }
 
   return (
-    <div style={{ padding: '2rem' }}>
+    <div style={{ padding: '2rem' }} className={styles.container}>
       <h1 style={{ fontSize: '2rem', fontWeight: 'bold' }}>Blog</h1>
-      <ul>
+      <ul className={styles.wordings}>
         {displayedPosts.map(({ slug, title, date, excerpt }) => (
-          <li key={slug} style={{ margin: '1rem 0' }}>
+          <li key={slug} style={{ margin: '1rem 0' }} className={styles.singlewordings}>
             <Link href={`/${slug}`} style={{ color: 'blue', textDecoration: 'underline' }}>
               {title}
+               <div style={{ fontSize: '0.8rem', color: 'gray' }}>{date}</div>
+            <div style={{ fontSize: '0.8rem', color: 'gray' }} className={styles.singlewordingsbrief}>{excerpt}</div>
             </Link>
-            <div style={{ fontSize: '0.8rem', color: 'gray' }}>{date}</div>
-            <div style={{ fontSize: '0.8rem', color: 'gray' }}>{excerpt}</div>
           </li>
         ))}
       </ul>

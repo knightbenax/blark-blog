@@ -16,6 +16,35 @@
   font-family: var(--font-geist-sans);
 }
 
+
+.container{
+  width: 1440px;
+  margin: auto;
+}
+
+.wordings{
+  display: flex;
+  gap: 20px;
+}
+
+.singlewordings{
+  width: calc(33% - 10px);
+  display: flex;
+  gap: 20px
+}
+
+.singlewordingsbrief{
+   display: block; /* Fallback for non-webkit */
+  display: -webkit-box;
+  height: 3.8em; /* Fallback for non-webkit, line-height * 2 */
+  line-height: 1.3em;
+  -webkit-line-clamp: 3; /* if you change this, make sure to change the fallback line-height and height */
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 @media (prefers-color-scheme: dark) {
   .page {
     --gray-rgb: 255, 255, 255;

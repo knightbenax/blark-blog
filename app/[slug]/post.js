@@ -1,6 +1,7 @@
 import { getPostData, getSortedPostsData } from '@/lib/posts';
 import { marked } from 'marked';
 import Link from 'next/link';
+import styles from './post.module.css';
 
 export async function generateStaticParams() {
   const posts = getSortedPostsData();

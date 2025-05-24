@@ -1,7 +1,9 @@
 ---
 title: "Telling Stories with Shapes: The Role of Composition in Black and White Photography"
 date: "April 30, 2025"
-excerpt: ""
+excerpt: "Black and white photography strips away the distraction of color, sharpening our focus on what really drives an image: light, shadow, and structure. At the heart of this lies shape—and how we compose those shapes into a meaningful frame. In this article, we dive into how the deliberate use of geometric forms, negative space, and simplified scenes can help you tell stronger stories through your monochrome work. Whether you’re capturing a quiet street or an abstract form, it’s your composition that speaks the loudest when the color is gone."
+tags: [black and white, photography tips, composition, lighting]
+author: "Blark Team"
 ---
 
 # Telling Stories with Shapes: The Role of Composition in Black and White Photography

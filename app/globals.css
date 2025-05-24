@@ -1,6 +1,6 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #1C1C1E;
+  --foreground: #FFFFFF;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,12 +14,13 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  background-color: #1C1C1E;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'EudoxusSans', Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -35,8 +36,63 @@ a {
   text-decoration: none;
 }
 
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul li{
+  list-style-type: none;
+}
+
+ul li a{
+  color: #FFFFFF !important;
+  text-decoration: none !important;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
 }
+
+@font-face {
+    font-family: 'EudoxusSans';
+    src: url('/fonts/eudoxus/EudoxusSans-Bold.woff2') format('woff2'),
+      url('/fonts/eudoxus/EudoxusSans-Bold.woff') format('woff'),
+      url('/fonts/eudoxus/EudoxusSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'EudoxusSans';
+    src: url('/fonts/eudoxus/EudoxusSans-Medium.woff2') format('woff2'),
+      url('/fonts/eudoxus/EudoxusSans-Medium.woff') format('woff'),
+      url('/fonts/eudoxus/EudoxusSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'EudoxusSans';
+    src: url('/fonts/eudoxus/EudoxusSans-Regular.woff2') format('woff2'),
+      url('/fonts/eudoxus/EudoxusSans-Regular.woff') format('woff'),
+      url('/fonts/eudoxus/EudoxusSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'EudoxusSans';
+    src: url('/fonts/eudoxus/EudoxusSans-ExtraBold.woff2') format('woff2'),
+      url('/fonts/eudoxus/EudoxusSans-ExtraBold.woff') format('woff'),
+      url('/fonts/eudoxus/EudoxusSans-ExtraBold.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+  }
+  
