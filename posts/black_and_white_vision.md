@@ -4,6 +4,7 @@ excerpt: "Great black and white photos don’t happen by accident. Learn how to 
 author: "Blark Team"
 date: "May 5, 2025"
 tags: [black and white, photography tips, composition, lighting]
+header: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*46fVvDTBDBSH1ZNnoMIlNQ.jpeg"
 ---
 
 # The Magic of Monochrome: How to See in Black and White Before You Shoot

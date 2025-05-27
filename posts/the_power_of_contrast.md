@@ -4,6 +4,7 @@ excerpt: "Black and white photography isn’t just about stripping away color �
 date: "March 21, 2025"
 author: "Blark Team"
 tags: [black and white, photography tips, composition, lighting]
+header: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*46fVvDTBDBSH1ZNnoMIlNQ.jpeg"
 ---
 
 Shot taken with BlarkBlack and white photography has a timeless appeal, often evoking a sense of nostalgia and simplicity. But don't be fooled - capturing striking black and white images requires more than just removing color. One of the most essential techniques in creating stunning black and white photos is understanding and using contrast effectively. Let's dive into how contrast can elevate your monochrome photography and some tips on mastering it.

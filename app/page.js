@@ -16,15 +16,20 @@ export default function HomePage() {
   const [displayedPosts, setDisplayedPosts] = useState([]);
   const [hasMore, setHasMore] = useState(true);
   const [page, setPage] = useState(1);
-
+  const [featuredPost, setFeaturedPost] = useState(null);
   const postsPerPage = 15;
+
+
 
   useEffect(() => {
     document.title = "Blark's Blog";
     async function loadPosts() {
       const posts = await fetchPosts();
-      setAllPosts(posts);
-      setDisplayedPosts(posts.slice(0, postsPerPage));
+      if (posts.length === 0) return;
+      const [featured, ...rest] = posts;
+      setFeaturedPost(featured);
+      setAllPosts(rest);
+      setDisplayedPosts(rest.slice(0, postsPerPage));
     }
     loadPosts();
     
@@ -55,6 +60,18 @@ export default function HomePage() {
   return (
     <div style={{ padding: '2rem' }} className={styles.container}>
       <h1 style={{ fontSize: '2rem', fontWeight: 'bold' }}>Blog</h1>
+
+{featuredPost && (
+  <div className={styles.featured}>
+    <img src={featuredPost.header}/>
+    <Link href={`/${featuredPost.slug}`}>
+      <h2 className={styles.featuredTitle}>{featuredPost.title}</h2>
+      <div className={styles.featuredDate}>{featuredPost.date}</div>
+      <p className={styles.featuredExcerpt}>{featuredPost.excerpt}</p>
+    </Link>
+  </div>
+)}
+
       <ul className={styles.wordings}>
         {displayedPosts.map(({ slug, title, date, excerpt }) => (
           <li key={slug} style={{ margin: '1rem 0' }} className={styles.singlewordings}>
