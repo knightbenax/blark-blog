@@ -59,7 +59,7 @@ export default function HomePage() {
 
   return (
     <div style={{ padding: '2rem' }} className={styles.container}>
-      <h1 style={{ fontSize: '2rem', fontWeight: 'bold' }}>Blog</h1>
+      <h1 style={{ fontSize: '2rem', fontWeight: 'bold' }}>Monochrome Journal</h1>
 
 {featuredPost && (
   <div className={styles.featured}>
@@ -83,11 +83,11 @@ export default function HomePage() {
           </li>
         ))}
       </ul>
-      {!hasMore && (
+      {/* {!hasMore && (
         <div style={{ textAlign: 'center', marginTop: '2rem', color: 'gray' }}>
           You've reached the end 🎉
         </div>
-      )}
+      )} */}
     </div>
   );
 }
