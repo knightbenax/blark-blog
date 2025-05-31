@@ -63,8 +63,8 @@ export default function HomePage() {
 
 {featuredPost && (
   <div className={styles.featured}>
-    <img src={featuredPost.header}/>
-    <Link href={`/${featuredPost.slug}`}>
+    <img src={featuredPost.header} className={styles.featuredheader}/>
+    <Link href={`/${featuredPost.slug}`} className={styles.featuredpost}>
       <h2 className={styles.featuredTitle}>{featuredPost.title}</h2>
       <div className={styles.featuredDate}>{featuredPost.date}</div>
       <p className={styles.featuredExcerpt}>{featuredPost.excerpt}</p>
