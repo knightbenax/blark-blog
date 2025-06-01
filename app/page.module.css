@@ -25,6 +25,18 @@
 .featured{
   height: 600px;
   position: relative;
+  margin: 40px auto 30px;
+}
+
+.featuredTitle{
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.featuredDate{
+  font-size: 14px;
+  margin: 3px 0px 8px;
+
 }
 
 .featuredpost{
@@ -34,7 +46,15 @@
       left: 0px;
       right: 0px;
       padding: 30px;
-      background: linear-gradient(0deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+      background: linear-gradient(0deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 100%);
+}
+
+.featuredExcerpt{
+  margin-top: 5px;
+}
+
+.featuredheaderinner{
+  width: 50%;
 }
 
 .featuredheader{
@@ -59,13 +79,19 @@
 .singlewordingsbrief{
    display: block; /* Fallback for non-webkit */
   display: -webkit-box;
-  height: 3.8em; /* Fallback for non-webkit, line-height * 2 */
-  line-height: 1.3em;
+  height: 4.8em; /* Fallback for non-webkit, line-height * 2 */
+  line-height: 1.5em;
   -webkit-line-clamp: 3; /* if you change this, make sure to change the fallback line-height and height */
   line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+  margin-top: 8px;
+}
+
+.singlewordingstitle{
+  font-weight: bold;
+  line-height: 1.5;
 }
 
 @media (prefers-color-scheme: dark) {

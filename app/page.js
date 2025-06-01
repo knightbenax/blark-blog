@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import styles from './page.module.css'
+import {format} from 'date-fns'
 
 async function fetchPosts() {
   const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/api/posts`); //fetch('/api/posts');
@@ -65,9 +66,13 @@ export default function HomePage() {
   <div className={styles.featured}>
     <img src={featuredPost.header} className={styles.featuredheader}/>
     <Link href={`/${featuredPost.slug}`} className={styles.featuredpost}>
-      <h2 className={styles.featuredTitle}>{featuredPost.title}</h2>
-      <div className={styles.featuredDate}>{featuredPost.date}</div>
+     <div className={styles.featuredheaderinner}>
+       <h2 className={styles.featuredTitle}>{featuredPost.title}</h2>
+      {/* <div className={styles.featuredDate}>
+        {format(new Date(featuredPost.date), "EEEE, MMMM do yyyy")}
+      </div> */}
       <p className={styles.featuredExcerpt}>{featuredPost.excerpt}</p>
+     </div>
     </Link>
   </div>
 )}
@@ -75,9 +80,11 @@ export default function HomePage() {
       <ul className={styles.wordings}>
         {displayedPosts.map(({ slug, title, date, excerpt }) => (
           <li key={slug} style={{ margin: '1rem 0' }} className={styles.singlewordings}>
-            <Link href={`/${slug}`} style={{ color: 'blue', textDecoration: 'underline' }}>
-              {title}
-               <div style={{ fontSize: '0.8rem', color: 'gray' }}>{date}</div>
+            <Link href={`/${slug}`} >
+              <div className={styles.singlewordingstitle}>{title}</div>
+               {/* <div style={{ fontSize: '0.8rem', color: 'gray' }}>
+                {format(new Date(date), "EEEE, MMMM do yyyy")}
+                </div> */}
             <div style={{ fontSize: '0.8rem', color: 'gray' }} className={styles.singlewordingsbrief}>{excerpt}</div>
             </Link>
           </li>
