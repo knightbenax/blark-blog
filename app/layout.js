@@ -29,14 +29,14 @@ export default function RootLayout({ children }) {
           <div class="app-section">
             <span>Our Apps</span>
             <a class="single-app" href="https://litur.app" target="_blank">
-              <img class="single-app-icon" src="assets/litur.png" />
+              <img class="single-app-icon" src="/blog/assets/litur.png" />
               <div class="single-app-parent">
                 <span class="single-app-name">Litur</span>
                 <span class="single-app-desc">Color picker & library app<br /> for iOS and macOS</span>
               </div>
             </a>
             <a class="single-app" href="https://getviso.app" target="_blank">
-              <img class="single-app-icon" src="assets/viso.png" />
+              <img class="single-app-icon" src="/blog/assets/viso.png" />
               <div class="single-app-parent">
                 <span class="single-app-name">Viso</span>
                 <span class="single-app-desc">Beautiful minimal image viewer<br /> for macOS</span>
@@ -51,7 +51,7 @@ export default function RootLayout({ children }) {
           <span class="trial">With a free 1 week trial</span>
           <a href="https://apps.apple.com/us/app/blark-pro-black-white-camera/id6742157071" class="free">Download from
             the AppStore</a>
-            <img src="assets/phone.png" />
+            <img src="/blog/assets/phone.png" />
         </div>
         <div class="box right">
           <a class="hfeatures" href="https://blark.app/#features" target="_blank">Features</a>
