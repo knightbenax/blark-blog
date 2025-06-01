@@ -1,0 +1,19 @@
+.singleblogpost{
+    margin: auto;
+    line-height: 1.5;
+}
+
+.singleblogpostsize{
+      width: 95%;
+      margin: auto;
+    max-width: 740px;
+}
+
+.singleblogpostheader{
+width: 100%;
+max-width: 1440px;
+margin: auto;
+display: block;
+height: 800px;
+object-fit: cover;
+}

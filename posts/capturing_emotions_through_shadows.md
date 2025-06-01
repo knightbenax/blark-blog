@@ -7,6 +7,10 @@ tags: [black and white, photography tips, composition, lighting]
 header: "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*Nv2p5APs4BjZrufCBSBaDQ.jpeg"
 ---
 
+
+
+![Alt text](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*Nv2p5APs4BjZrufCBSBaDQ.jpeg "a title")
+
 Shot with BlarkBlack and white photography has a unique ability to evoke emotions in a way that color photography sometimes can't. One key aspect of this emotional storytelling lies in the creative use of shadows. When done right, shadows add depth, mystery, and drama to your images. Let's explore how you can master the art of using shadows to evoke emotions and enhance your black and white photos.
 Why Shadows Matter in Black and White Photography
 Shadows play a vital role in black and white photography because, without color to guide the viewer's eye, light and shadow take center stage. Shadows can create powerful contrasts, reveal textures, and introduce a sense of mystery or intrigue. Whether you're photographing landscapes, portraits, or still life, how you use shadows can drastically affect the emotional tone of your image.

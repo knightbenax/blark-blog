@@ -26,6 +26,10 @@
   height: 600px;
   position: relative;
   margin: 40px auto 30px;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+
 }
 
 .featuredTitle{
