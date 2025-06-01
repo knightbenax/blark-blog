@@ -78,9 +78,10 @@ export default function HomePage() {
 )}
 
       <ul className={styles.wordings}>
-        {displayedPosts.map(({ slug, title, date, excerpt }) => (
+        {displayedPosts.map(({ slug, title, date, excerpt, header }) => (
           <li key={slug} style={{ margin: '1rem 0' }} className={styles.singlewordings}>
             <Link href={`/${slug}`} >
+            <img src={header} className={styles.singlewordingsheader}/>
               <div className={styles.singlewordingstitle}>{title}</div>
                {/* <div style={{ fontSize: '0.8rem', color: 'gray' }}>
                 {format(new Date(date), "EEEE, MMMM do yyyy")}

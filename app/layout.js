@@ -51,15 +51,16 @@ export default function RootLayout({ children }) {
           <span class="trial">With a free 1 week trial</span>
           <a href="https://apps.apple.com/us/app/blark-pro-black-white-camera/id6742157071" class="free">Download from
             the AppStore</a>
+            <img src="assets/phone.png" />
         </div>
         <div class="box right">
-          <a class="hfeatures" href="#features">Features</a>
+          <a class="hfeatures" href="https://blark.app/#features" target="_blank">Features</a>
           <a class="hpricing"
             href="https://drive.google.com/drive/folders/1BQr_MKV7GN0_zk0lbsPT2e1w9_C5m5wC?usp=drive_link"
             target="_blank">Press Kit</a>
-          <a href="">Support</a>
-          <a href="/terms">Terms Of Service</a>
-          <a href="/privacy/">Privacy Policy</a>
+          <a href="mailto:blark@jiti.io" target="_blank">Support</a>
+          <a href="https://blark.app/terms" target="_blank">Terms Of Service</a>
+          <a href="https://blark.app/privacy/" target="_blank">Privacy Policy</a>
         </div>
       </div>
         </div>
