@@ -71,7 +71,8 @@
 
 .wordings{
   display: flex;
-  gap: 50px;
+  gap: 46px;
+  margin-bottom: 120px;
 }
 
 .singlewordings{
@@ -84,6 +85,9 @@
   width: 100%;
   object-fit: cover;
   height: 300px;
+   border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  overflow: hidden;
 }
 
 .singlewordingsbrief{
@@ -102,6 +106,7 @@
 .singlewordingstitle{
   font-weight: bold;
   line-height: 1.5;
+  margin-top: 10px;
 }
 
 @media (prefers-color-scheme: dark) {

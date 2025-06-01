@@ -11,9 +11,23 @@
 
 .singleblogpostheader{
 width: 100%;
-max-width: 1440px;
-margin: auto;
+max-width: 1280px;
+margin: 30px auto 40px;
 display: block;
 height: 800px;
 object-fit: cover;
+border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.singleblogpostcontent >:not(:has(img)) {
+ max-width: min(740px, 95%);
+ margin: auto;
+ line-height: 1.6;
+}
+
+.singleblogpostcontent >:has(img) img{
+width: 100%;
+max-width: 1280px;
+margin: 30px auto 40px;
+display: block;
 }

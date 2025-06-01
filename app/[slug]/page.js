@@ -33,7 +33,8 @@ export default async function PostPage({ params }) {
      </div>
       <img src={post.header} className={styles.singleblogpostheader}/>
       <div
-        dangerouslySetInnerHTML={{ __html: marked(post.content) }}
+        className={styles.singleblogpostcontent}
+        dangerouslySetInnerHTML={{ __html: marked.parse(post.content) }}
         style={{ lineHeight: '1.6' }}
       />
     </div>

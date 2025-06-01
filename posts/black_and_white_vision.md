@@ -7,13 +7,10 @@ tags: [black and white, photography tips, composition, lighting]
 header: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*46fVvDTBDBSH1ZNnoMIlNQ.jpeg"
 ---
 
-# The Magic of Monochrome: How to See in Black and White Before You Shoot
-
 When it comes to black and white photography, **the camera sees what you train your eyes to notice**. Unlike color photography, which often relies on vibrant tones to carry emotion and meaning, black and white strips everything down to the essentials: light, shadow, texture, and composition.
 
 So how do some photographers consistently create stunning monochrome images while others struggle to capture anything more than flat, lifeless grayscale? The answer lies in learning how to **see in black and white**—before you even lift your camera.
 
----
 
 ## Why Pre-Visualizing in Black and White Matters
 
@@ -23,8 +20,6 @@ Shooting in black and white isn’t as simple as applying a filter after the fac
 
 Training your eyes to recognize tones and contrasts, rather than colors, allows you to compose more intentionally and capture images that resonate on a deeper level.
 
----
-
 ## 4 Techniques to Train Your Eye for Monochrome
 
 ### 1. **Squint or Use a Monochrome Preview**
@@ -32,28 +27,21 @@ A simple trick? Squint your eyes. This reduces color information and helps you p
 
 > **Tip:** Set your iPhone or camera to monochrome mode when scouting or composing a shot. You can always save the RAW or color version too.
 
----
 
 ### 2. **Pay Attention to Light Quality**
 Color images are often enhanced by colorful lighting (like sunsets), but in black and white, **direction, intensity, and contrast** become your most powerful tools. Side lighting reveals texture, backlighting creates silhouettes, and hard light deepens shadows for mood.
 
 > **Tip:** Early morning and late afternoon offer dynamic shadows. Practice shooting during these times to learn how light sculpts a scene in grayscale.
 
----
-
 ### 3. **Use Contrast to Separate Subjects**
 Without color separation, your subject can blend into the background. Contrast—whether through brightness or texture—is how you guide the viewer’s eye in monochrome.
 
 > **Tip:** Position your subject against a background with opposite tones (dark subject, light background or vice versa). Adjust your exposure to enhance separation.
 
----
-
 ### 4. **Look for Texture, Lines, and Shape**
 Textures like cracked paint, weathered skin, or rippling water become dramatic in black and white. So do leading lines and repetitive shapes.
 
 > **Tip:** Practice identifying subjects that would be “boring” in color but interesting in tone or shape. This mindset helps you see creatively in black and white.
-
----
 
 ## Practice Exercise: Monochrome Walks
 
@@ -66,17 +54,15 @@ Ask yourself:
 
 With practice, your instincts will sharpen—and your black-and-white shots will start to speak more powerfully.
 
----
 
 ## Final Thoughts: Vision Before Exposure
 
 The best black and white photographers don’t just convert images—they **see differently**. They visualize tone, embrace contrast, and compose with light and emotion.
 
-Next time you go out to shoot, challenge yourself: *Can I already see this in black and white?*
+Next time you go out to shoot, challenge yourself: **Can I already see this in black and white?**
 
 When you start seeing in monochrome, you begin to create art—not just images.
 
----
 
 **Ready to sharpen your black and white vision?**  
 Download **Blark** and unlock a camera app designed for photographers who see the world in contrast, light, and form.  
