@@ -60,6 +60,20 @@ export default function HomePage() {
 
   return (
     <div style={{ padding: '2rem' }} className={styles.container}>
+      <div className="header-floater-parent">
+        <img src="assets/logo.png" />
+        <div className="header-floater">
+          <a className="hblog" href="https://blark.app/blog" target="_blank">Blog</a>
+          <a className="hfeatures" href="#features">Features</a>
+          <a className="hpricing"
+            href="https://drive.google.com/drive/folders/1BQr_MKV7GN0_zk0lbsPT2e1w9_C5m5wC?usp=drive_link"
+            target="_blank">Press Kit</a>
+          <a className="hsupport" href="mailto:blark@jiti.io" target="_blank">Support</a>
+          <a href="https://apps.apple.com/us/app/blark-pro-black-white-camera/id6742157071" class="free">Download</a>
+        </div>
+      </div>
+
+
       <h1 style={{ fontSize: '2rem', fontWeight: 'bold' }}>Monochrome Journal</h1>
 
 {featuredPost && (
@@ -86,7 +100,7 @@ export default function HomePage() {
                {/* <div style={{ fontSize: '0.8rem', color: 'gray' }}>
                 {format(new Date(date), "EEEE, MMMM do yyyy")}
                 </div> */}
-            <div style={{ fontSize: '0.8rem', color: 'gray' }} className={styles.singlewordingsbrief}>{excerpt}</div>
+            <div style={{  color: 'gray' }} className={styles.singlewordingsbrief}>{excerpt}</div>
             </Link>
           </li>
         ))}

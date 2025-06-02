@@ -1,9 +1,14 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, EB_Garamond } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+});
+
+const ebGaramond = EB_Garamond({
+  weight: '400',
+  subsets: ['latin'],
 });
 
 const geistMono = Geist_Mono({
@@ -23,7 +28,7 @@ export default function RootLayout({ children }) {
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
         <div className="footer">
-<div class="footer-content">
+          <div class="footer-content">
         <div class="box left">
           <span>Jiti LLC © 2025</span>
           <div class="app-section">

@@ -28,7 +28,7 @@ export default async function PostPage({ params }) {
       <Link href="/" style={{ color: 'blue', textDecoration: 'underline' }}>Back</Link>
       
      <div className={styles.singleblogpostsize}>
-       <h1 style={{ fontSize: '2rem', fontWeight: 'bold' }}>{post.title}</h1>
+       <h1 style={{ fontSize: '2rem', fontWeight: '900', marginBottom: '5px' }}>{post.title}</h1>
       <div style={{ color: 'gray', marginBottom: '1rem' }}>{post.date}</div>
      </div>
       <img src={post.header} className={styles.singleblogpostheader}/>

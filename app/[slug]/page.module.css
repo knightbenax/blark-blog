@@ -6,7 +6,7 @@
 .singleblogpostsize{
       width: 95%;
       margin: auto;
-    max-width: 740px;
+    max-width: 720px;
 }
 
 .singleblogpostheader{
@@ -16,13 +16,20 @@ margin: 30px auto 40px;
 display: block;
 height: 800px;
 object-fit: cover;
+font-weight: 900;
 border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
+.singleblogpostcontent{
+    margin-bottom: 120px;
+}
+
 .singleblogpostcontent >:not(:has(img)) {
- max-width: min(740px, 95%);
+ max-width: min(720px, 95%);
  margin: auto;
- line-height: 1.6;
+ line-height: 1.8;
+ font-family: 'EB Garamond';
+font-size: 22px;
 }
 
 .singleblogpostcontent >:has(img) img{

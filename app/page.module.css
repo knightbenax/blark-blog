@@ -107,6 +107,8 @@
   font-weight: bold;
   line-height: 1.5;
   margin-top: 10px;
+  font-weight: 900;
+  font-size: 18px;
 }
 
 @media (prefers-color-scheme: dark) {

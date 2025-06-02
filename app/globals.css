@@ -16,6 +16,16 @@
   }
 }
 
+
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+
 @font-face {
     font-family: 'EudoxusSans';
     src: url('/blog/fonts/eudoxus/EudoxusSans-Bold.woff2') format('woff2'),
@@ -201,6 +211,45 @@ a {
   text-decoration: none;
 }
 
+
+ .header-floater-parent{
+    z-index: 14;
+    
+    display: flex;
+    justify-content: space-between;
+    width: var(--jt-content-width);
+    max-width: var(--jt-content-max-width);
+    margin: 30px auto 30px;
+    font-weight: 500;
+  }
+
+  .header-floater {
+    -webkit-font-smoothing: subpixel-antialiased;
+    display: flex;
+    gap: 34px;
+    background: #000;
+    align-items: center;
+    padding-left: 30px;
+    border-radius: 60px;
+    border: 1px solid #000000;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.4);
+    align-self: center;
+  }
+  
+  .header-floater .free {
+    padding: 9px 20px 10px;
+    margin: 4px 4px 4px 0px;
+    background: #FFCC00;
+    color: #000;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.27);
+    border-radius: 21px;
+  }
+  
+  .header-floater-parent img {
+    width: 48px;
+    align-self: center;
+  }
+
 ul {
   margin: 0px;
   padding: 0px;
@@ -214,4 +263,6 @@ ul li a{
   color: #FFFFFF !important;
   text-decoration: none !important;
 }
+
+
 
