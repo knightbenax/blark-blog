@@ -285,3 +285,12 @@ a.secondary {
     filter: invert();
   }
 }
+
+@media (max-width: 768px) {
+    
+    .header-floater a.hpricing,
+    .header-floater a.hfeatures,
+    .header-floater a.hsupport {
+      display: none;
+    }
+}

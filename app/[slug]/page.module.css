@@ -40,3 +40,12 @@ margin: 30px auto 0px;
 display: block;
 border: 1px solid rgba(255, 255, 255, 0.05);
 }
+
+@media (max-width: 768px) {
+    
+    .header-floater a.hpricing,
+    .header-floater a.hfeatures,
+    .header-floater a.hsupport {
+      display: none;
+    }
+}
