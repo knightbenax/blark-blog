@@ -217,8 +217,6 @@ a {
     
     display: flex;
     justify-content: space-between;
-    width: var(--jt-content-width);
-    max-width: var(--jt-content-max-width);
     margin: 30px auto 30px;
     font-weight: 500;
   }
@@ -250,16 +248,16 @@ a {
     align-self: center;
   }
 
-ul {
+ul.wordings {
   margin: 0px;
   padding: 0px;
 }
 
-ul li{
+ul.wordings li{
   list-style-type: none;
 }
 
-ul li a{
+ul.wordings li a{
   color: #FFFFFF !important;
   text-decoration: none !important;
 }

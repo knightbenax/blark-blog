@@ -18,7 +18,8 @@
 
 
 .container{
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
   margin: auto;
 }
 
@@ -79,6 +80,29 @@
   width: calc(33% - 10px);
   display: flex;
   gap: 20px
+}
+
+.blogheadliner{
+  background-image: url('/blog/assets/blog_header_bg.png');
+  background-repeat: repeat;
+  padding: 30px 35px;
+  display: flex;
+  
+  flex-direction: column;
+  gap:50px
+}
+
+.blogtitle{
+  font-weight: 900;
+  border-radius: 50px;
+  border: 2px solid #ffffff;
+  padding: 10px 20px;
+  font-size: 20px;
+  align-self: flex-start;
+}
+
+.blogtag{
+font-size: 2em;
 }
 
 .singlewordingsheader{

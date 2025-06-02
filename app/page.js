@@ -61,20 +61,25 @@ export default function HomePage() {
   return (
     <div style={{ padding: '2rem' }} className={styles.container}>
       <div className="header-floater-parent">
-        <img src="assets/logo.png" />
+        <img src="/blog/assets/logo.png" />
         <div className="header-floater">
-          <a className="hblog" href="https://blark.app/blog" target="_blank">Blog</a>
-          <a className="hfeatures" href="#features">Features</a>
+          <a className="hfeatures" href="https://blark.app/#features" target="_blank">Features</a>
           <a className="hpricing"
             href="https://drive.google.com/drive/folders/1BQr_MKV7GN0_zk0lbsPT2e1w9_C5m5wC?usp=drive_link"
             target="_blank">Press Kit</a>
           <a className="hsupport" href="mailto:blark@jiti.io" target="_blank">Support</a>
-          <a href="https://apps.apple.com/us/app/blark-pro-black-white-camera/id6742157071" class="free">Download</a>
+          <a href="https://apps.apple.com/us/app/blark-pro-black-white-camera/id6742157071" className="free">Download Blark</a>
         </div>
       </div>
 
 
-      <h1 style={{ fontSize: '2rem', fontWeight: 'bold' }}>Monochrome Journal</h1>
+      <div className={styles.blogheadliner}>
+        <span className={styles.blogtitle}>Monochrome Journal</span>
+        <div className={styles.blogtag}>
+          Tips on how to get the most out of<br/>
+your black and white photography
+        </div>
+      </div>
 
 {featuredPost && (
   <div className={styles.featured}>
