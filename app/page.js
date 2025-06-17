@@ -59,7 +59,7 @@ export default function HomePage() {
   }
 
   return (
-    <div style={{ padding: '2rem' }} className={styles.container}>
+    <div className={styles.container}>
       <div className="header-floater-parent">
         <img src="/blog/assets/logo.png" />
         <div className="header-floater">

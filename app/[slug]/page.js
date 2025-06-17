@@ -24,7 +24,7 @@ export default async function PostPage({ params }) {
   const post = await getPostData(params.slug);
 
   return (
-    <div style={{ padding: '2rem' }} className={styles.singleblogpost}>
+    <div className={styles.singleblogpost}>
       
 
 
