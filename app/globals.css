@@ -3,6 +3,7 @@
   --foreground: #FFFFFF;
   --jt-content-width: 90%;
   --jt-content-max-width: 1360px;
+  --mobile-width: 90%;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -261,6 +262,81 @@ ul.wordings li a{
   color: #FFFFFF !important;
   text-decoration: none !important;
 }
+
+
+@media (max-width: 768px) {
+    
+    .header-floater a.hpricing,
+    .header-floater a.hfeatures,
+    .header-floater a.hsupport {
+      display: none;
+    }
+
+    .header-floater .free{
+      margin: 0px;
+    }
+
+    .header-floater{
+      background: none;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .header-floater-parent{
+      width: var(--mobile-width);
+    }
+
+
+
+      .footer-content{
+        flex-direction: column-reverse;
+        align-items: center;
+            padding: 60px 0px 80px;
+      }
+
+    .footer-content .box.right{
+        display: none;
+      }
+
+      .footer-content .box.left{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        flex-direction: column-reverse;
+      }
+
+      .footer-content .box.middle img{
+        margin-right: -5px;
+        margin-bottom: -120px;
+      }
+
+      .single-app:last-of-type{
+        margin-bottom: 20px;
+      }
+
+      .appstorelink{
+        margin-top: 20px;
+      }
+
+      .footer-content .box.middle img{
+        display: none;
+      }
+
+      .app-section span {
+    font-size: 16px !important;
+}
+.single-app-desc {
+    margin-top: 0px !important;
+}
+
+.singleblogpostcontent li{
+  margin-left: 20px;
+}
+
+}
+
 
 
 

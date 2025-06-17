@@ -98,7 +98,7 @@ your black and white photography
 
       <ul className={styles.wordings}>
         {displayedPosts.map(({ slug, title, date, excerpt, header }) => (
-          <li key={slug} style={{ margin: '1rem 0' }} className={styles.singlewordings}>
+          <li key={slug}  className={styles.singlewordings}>
             <Link href={`/${slug}`} >
             <img src={header} className={styles.singlewordingsheader}/>
               <div className={styles.singlewordingstitle}>{title}</div>

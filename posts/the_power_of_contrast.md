@@ -15,7 +15,7 @@ Why is Contrast Important in Black and White Photography?
 Without the distraction of color, black and white photos rely heavily on contrast to create depth, highlight important elements, and evoke emotion. High-contrast images have a dramatic look, with strong blacks and whites, while low-contrast images can feel more subdued and calm, with more gradual transitions between shades of gray.
 
 ![Shot taken with Blark](https://miro.medium.com/v2/resize:fit:720/format:webp/1*A6F-LrtWNOMYrQkjZ0uITw.jpeg)
-<br/><br/>
+<br/>
 
 ## 3 Tips to Master Contrast in Black and White Photography
 1. Focus on Lighting
@@ -29,7 +29,7 @@ Post-processing plays a big role in enhancing or adjusting contrast. With apps l
 Tip: Be careful not to over-edit. While boosting contrast can make an image pop, going too far can lose important details and lead to an unnatural look. Make small, deliberate adjustments to enhance the natural light and shadow interplay in your shot.
 
 ![Shot taken with Blark](https://miro.medium.com/v2/resize:fit:720/format:webp/1*Nl_7JJFxOMsChXT24YRcWg.jpeg)
-<br/><br/>
+<br/>
 
 ## Conclusion: The Art of Seeing in Black and White
 To truly master black and white photography, you need to train your eye to see the world differently. Without the distraction of color, every light source, shadow, texture, and pattern becomes a key component of your composition. Contrast is your best friend in this monochrome world - it adds depth, drama, and emotion to your images.
