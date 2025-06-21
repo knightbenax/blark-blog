@@ -21,8 +21,11 @@ width: 100%;
 /* max-width: 1280px; */
 margin: 30px auto 40px;
 display: block;
-height: 800px;
+/* height: 800px; */
+height: auto;
+
 object-fit: cover;
+max-width: 720px;
 font-weight: 900;
 border: 1px solid rgba(255, 255, 255, 0.05);
 }
@@ -46,9 +49,9 @@ display: block;
 border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-.singleblogpostcontent li{
+/* .singleblogpostcontent li{
   margin-left: 15px;
-}
+} */
 
 @media (max-width: 768px) {
     

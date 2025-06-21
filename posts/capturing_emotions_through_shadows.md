@@ -19,26 +19,29 @@ Shadows play a vital role in black and white photography because, without color 
 <br><br>
 
 ## 3 Ways to Use Shadows to Create Impactful Black and White Photos
-1. Silhouettes and Strong Shadow Play
+1. **Silhouettes and Strong Shadow Play**<br/>
 Silhouettes are one of the most dramatic ways to incorporate shadows into black and white photography. They offer strong visual contrast between your subject and the background, often evoking feelings of mystery or solitude. In silhouettes, the subject is completely dark, while the background is well-lit, creating a stark contrast.
-Tip: Look for opportunities to place your subject in front of a strong light source, like a window or the setting sun. Focus on the outlines and shapes, and let the shadows do the rest. When shooting, expose for the brightest part of your image to enhance the silhouette effect.
+
+**Tip**: Look for opportunities to place your subject in front of a strong light source, like a window or the setting sun. Focus on the outlines and shapes, and let the shadows do the rest. When shooting, expose for the brightest part of your image to enhance the silhouette effect.
 <br>
 
-2. Chiaroscuro: The Dance of Light and Dark
+2. **Chiaroscuro: The Dance of Light and Dark**<br/>
 Chiaroscuro is an artistic technique that plays with the contrast between light and dark areas in an image, often highlighting parts of the subject while others are enveloped in shadow. This technique is perfect for creating drama and mood, particularly in portraiture, where light can be used to focus attention on a person's face or an important feature.
-Tip: When shooting portraits, use a single light source positioned at an angle to create strong shadows. Experiment with different positions to either accentuate facial features or leave parts of the face in shadow for a mysterious, moody feel.
+
+**Tip**: When shooting portraits, use a single light source positioned at an angle to create strong shadows. Experiment with different positions to either accentuate facial features or leave parts of the face in shadow for a mysterious, moody feel.
 <br>
 
-3. Patterns and Textures Created by Shadows
+3. **Patterns and Textures Created by Shadows**<br/>
 Shadows can reveal beautiful patterns and textures that might otherwise go unnoticed. When light filters through objects such as blinds, tree branches, or architectural elements, it creates unique shadow patterns that can add visual interest and depth to your black and white images.
-Tip: Search for scenes with strong lighting and geometric or organic patterns. Shooting through windows with blinds or focusing on shadows cast by trees in nature can create stunning black-and-white images where the shadows themselves become the subject.
+
+**Tip**: Search for scenes with strong lighting and geometric or organic patterns. Shooting through windows with blinds or focusing on shadows cast by trees in nature can create stunning black-and-white images where the shadows themselves become the subject.
 <br><br>
 
 ## Editing for Maximum Shadow Impact
 Once you've captured your images, editing is where you can fine-tune your shadows to have the desired emotional effect. Tools like Blark make it easy to enhance shadows, adjust exposure, and balance highlights for dramatic results. Adjust the black point and contrast to make shadows deeper, or soften them slightly for a more ethereal, dreamy look.
 <br><br>
 
-Tip: Avoid crushing your shadows too much in post-processing. While high contrast can be powerful, losing all detail in your shadows can make the image feel flat. Balance is key to maintaining texture while achieving the mood you're after.
+**Tip**: Avoid crushing your shadows too much in post-processing. While high contrast can be powerful, losing all detail in your shadows can make the image feel flat. Balance is key to maintaining texture while achieving the mood you're after.
 
 ![Shot taken with Blark](https://miro.medium.com/v2/resize:fit:720/format:webp/1*Nv2p5APs4BjZrufCBSBaDQ.jpeg)
 

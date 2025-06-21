@@ -21,16 +21,19 @@ This makes deliberate composition essential in black and white photography. A we
 
 ## 3 Composition Tips for Better Black and White Photography
 
-1. **Use Strong Geometric Shapes**
+1. **Use Strong Geometric Shapes**<br/>
 Squares, triangles, circles, and leading lines become more noticeable and impactful in black and white. A well-placed curve or diagonal line can guide the viewer’s eye and bring visual rhythm to your photo.
+
 **Tip:** Urban environments are great for finding strong geometry—think staircases, windows, buildings, and street shadows. Frame your subject to highlight these shapes, using contrast to separate them from the background.
 
-2. **Negative Space is Powerful**
+2. **Negative Space is Powerful**<br/>
 Negative space—areas of an image with little or no detail—can evoke feelings of isolation, minimalism, or peace. In black and white, these areas help emphasize your subject by reducing visual noise.
+
 **Tip:** Compose your shot so that your subject occupies only a small portion of the frame, surrounded by empty space. Think of a lone tree in a foggy field, or a single figure walking down a vast street. Less really can be more.
 
-3. **Simplify the Scene**
+3. **Simplify the Scene**<br/>
 The lack of color in black and white photography can actually lead to more complexity if you’re not careful—your eye picks up every texture and tonal variation. That’s why simplifying the scene through thoughtful composition is key.
+
 **Tip:** Before you shoot, ask yourself: “What’s the subject here? What distracts from it?” Crop or reframe to eliminate unnecessary elements. A clean, intentional composition will resonate more deeply in black and white.
 <br/><br/>
 
