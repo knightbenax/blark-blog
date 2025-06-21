@@ -9,6 +9,7 @@ header: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*46fVvDTBDBSH1ZN
 
 Black and white photography has a timeless appeal, often evoking a sense of nostalgia and simplicity. But don't be fooled - capturing striking black and white images requires more than just removing color. One of the most essential techniques in creating stunning black and white photos is understanding and using contrast effectively. Let's dive into how contrast can elevate your monochrome photography and some tips on mastering it.
 <br/><br/>
+
 # What is Contrast in Photography?
 Contrast refers to the difference between the light and dark areas in a photo. In color photography, contrast can be influenced by different hues, but in black and white photography, it's all about the interaction between light, shadow, and texture. This interplay of brightness can make an image feel dynamic, sharp, and dramatic, or soft and subtle.
 Why is Contrast Important in Black and White Photography?

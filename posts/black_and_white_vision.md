@@ -4,7 +4,7 @@ excerpt: "Great black and white photos don’t happen by accident. Learn how to 
 author: "Blark Team"
 date: "May 5, 2025"
 tags: [black and white, photography tips, composition, lighting]
-header: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*46fVvDTBDBSH1ZNnoMIlNQ.jpeg"
+header: "/blog/assets/blog/IMG_4368.JPG"
 ---
 
 When it comes to black and white photography, **the camera sees what you train your eyes to notice**. Unlike color photography, which often relies on vibrant tones to carry emotion and meaning, black and white strips everything down to the essentials: light, shadow, texture, and composition.
