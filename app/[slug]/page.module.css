@@ -34,6 +34,10 @@ border: 1px solid rgba(255, 255, 255, 0.05);
     margin-bottom: 120px;
 }
 
+.singleblogpostcontent a{
+  text-decoration: underline;
+}
+
 .singleblogpostcontent >:not(:has(img)) {
  max-width: min(720px, 95%);
  margin: auto;

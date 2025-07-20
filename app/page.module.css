@@ -27,7 +27,7 @@
 .featured{
   height: 600px;
   position: relative;
-  margin: 40px auto 50px;
+  margin: 40px auto 40px;
   border-radius: 15px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   overflow: hidden;
@@ -73,12 +73,15 @@
 
 .wordings{
   display: flex;
-  gap: 46px;
+  row-gap: 30px;
   margin-bottom: 120px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
 }
 
 .singlewordings{
-  width: calc(33% - 10px);
+  width: calc(33% - 15px);
   display: flex;
   gap: 20px
 }
