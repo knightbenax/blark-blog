@@ -15,7 +15,32 @@ export async function generateMetadata({ params }) {
 
   return {
     title: post.title,
-    description: post.excerpt || '', // optional
+    description: post.excerpt || '',
+    referrer: 'origin-when-cross-origin',
+  keywords: post.tags,
+  authors: [
+    { name: 'Blark Team', url: 'https://blark.app/blog' }
+  ],
+    openGraph: {
+    url: `https://blark.app/blog/${post.slug}`,
+    siteName: 'Monochrome Journal',
+    images: [
+      {
+        url: `${post.header}`,
+        // width: 800,
+        // height: 600,
+        alt: 'Blog Post Image',
+      },
+    ],
+    locale: 'en_US',
+    type: 'article',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: post.title,
+    description:  post.excerpt || '',
+    images: `${post.header}`,
+  },
   };
 }
 

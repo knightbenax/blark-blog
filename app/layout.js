@@ -17,8 +17,33 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Blark's Blog",
+  title: "Monochrome Journal - Blark's Blog",
   description: "Blog by Blark to help you take your black and white photography to the next level",
+     referrer: 'origin-when-cross-origin',
+   keywords: ["Blark", "iOS", "iOS app", "camera app", "camera", "blark camera app", "blark", "iOS camera app", "photography", "mobile photography", "monochrome", "black and white", "black and white photography", "black and white camera app", "black and white camera"],
+  authors: [
+    { name: 'Blark Team', url: 'https://blark.app/blog' }
+  ],
+   openGraph: {
+    url: "https://blark.app/blog/",
+    siteName: 'Monochrome Journal',
+    images: [
+      {
+        url: "https://blark.app/blog/banner.png",
+        // width: 800,
+        // height: 600,
+        alt: 'Blog Post Image',
+      },
+    ],
+    locale: 'en_US',
+    type: 'article',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Monochrome Journal - Blark's Blog",
+    description:  "Blog by Blark to help you take your black and white photography to the next level",
+    images: "https://blark.app/blog/banner.png",
+  }
 };
 
 
