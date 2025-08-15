@@ -78,7 +78,7 @@ export default function RootLayout({ children }) {
           <h1 className="h1-tag">
             Get Blark
           </h1>
-          <span className="trial">With a free 1 week trial</span>
+          <span className="trial">With a free 3 days trial</span>
           <a href="https://apps.apple.com/us/app/blark-pro-black-white-camera/id6742157071" className="free">Download from
             the AppStore</a>
             <img src="/blog/assets/phone.png" />
