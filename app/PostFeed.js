@@ -45,8 +45,9 @@ export default function PostFeed({ posts }) {
   return (
     <>
       <div className={styles.featured}>
-        <img src={featuredPost.header} className={styles.featuredheader} alt={featuredPost.title} />
+        
         <Link href={`/${featuredPost.slug}`} className={styles.featuredpost}>
+        <img src={featuredPost.header} className={styles.featuredheader} alt={featuredPost.title} />
           <div className={styles.featuredheaderinner}>
             <h2 className={styles.featuredTitle}>{featuredPost.title}</h2>
             <p className={styles.featuredExcerpt}>{featuredPost.excerpt}</p>

@@ -55,7 +55,7 @@ export default function RootLayout({ children }) {
         <div className="footer">
           <div className="footer-content">
         <div className="box left">
-          <span>Jiti LLC © 2025</span>
+          <span>Jiti LLC © 2026</span>
           <div className="app-section">
             <span>Our Apps</span>
             <a className="single-app" href="https://litur.app" target="_blank">
