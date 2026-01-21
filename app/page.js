@@ -1,63 +1,15 @@
-'use client';
-
-import { useState, useEffect } from 'react';
-import Link from 'next/link';
 import styles from './page.module.css'
-import {format} from 'date-fns'
+import PostFeed from './PostFeed';
+import { getSortedPostsData } from '@/lib/posts';
 
-async function fetchPosts() {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/api/posts`); //fetch('/api/posts');
-  const data = await res.json();
-  return data;
-}
-
+export const metadata = {
+  title: "Blark's Blog",
+};
 
 export default function HomePage() {
-  const [allPosts, setAllPosts] = useState([]);
-  const [displayedPosts, setDisplayedPosts] = useState([]);
-  const [hasMore, setHasMore] = useState(true);
-  const [page, setPage] = useState(1);
-  const [featuredPost, setFeaturedPost] = useState(null);
-  const postsPerPage = 15;
-
-
-
-  useEffect(() => {
-    document.title = "Blark's Blog";
-    async function loadPosts() {
-      const posts = await fetchPosts();
-      if (posts.length === 0) return;
-      const [featured, ...rest] = posts;
-      setFeaturedPost(featured);
-      setAllPosts(rest);
-      setDisplayedPosts(rest.slice(0, postsPerPage));
-    }
-    loadPosts();
-    
-  }, []);
-
-  useEffect(() => {
-    function handleScroll() {
-      if (
-        window.innerHeight + window.scrollY >= document.body.offsetHeight - 500 &&
-        hasMore
-      ) {
-        loadMore();
-      }
-    }
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, [displayedPosts, hasMore]);
-
-  function loadMore() {
-    const nextPosts = allPosts.slice(page * postsPerPage, (page + 1) * postsPerPage);
-    setDisplayedPosts((prev) => [...prev, ...nextPosts]);
-    setPage((prev) => prev + 1);
-    if (nextPosts.length < postsPerPage) {
-      setHasMore(false);
-    }
-  }
-
+  // Fetch data directly on the server
+  const posts = getSortedPostsData();
+  
   return (
     <div className={styles.container}>
       <div className="header-floater-parent">
@@ -81,41 +33,7 @@ your black and white photography
         </div>
       </div>
 
-{featuredPost && (
-  <div className={styles.featured}>
-    <img src={featuredPost.header} className={styles.featuredheader}/>
-    <Link href={`/${featuredPost.slug}`} className={styles.featuredpost}>
-     <div className={styles.featuredheaderinner}>
-       <h2 className={styles.featuredTitle}>{featuredPost.title}</h2>
-      {/* <div className={styles.featuredDate}>
-        {format(new Date(featuredPost.date), "EEEE, MMMM do yyyy")}
-      </div> */}
-      <p className={styles.featuredExcerpt}>{featuredPost.excerpt}</p>
-     </div>
-    </Link>
-  </div>
-)}
-
-      <ul className={styles.wordings}>
-        {displayedPosts.map(({ slug, title, date, excerpt, header }) => (
-          <li key={slug}  className={styles.singlewordings}>
-            <Link href={`/${slug}`} >
-            <img src={header} className={styles.singlewordingsheader}/>
-              <div className={styles.singlewordingstitle}>{title}</div>
-               {/* <div style={{ fontSize: '0.8rem', color: 'gray' }}>
-                {format(new Date(date), "EEEE, MMMM do yyyy")}
-                </div> */}
-            <div style={{  color: 'gray' }} className={styles.singlewordingsbrief}>{excerpt}</div>
-            </Link>
-          </li>
-        ))}
-        <li className={styles.singlewordings}></li>
-      </ul>
-      {/* {!hasMore && (
-        <div style={{ textAlign: 'center', marginTop: '2rem', color: 'gray' }}>
-          You've reached the end 🎉
-        </div>
-      )} */}
+      <PostFeed posts={posts} />
     </div>
   );
 }
