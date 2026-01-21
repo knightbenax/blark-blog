@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import styles from './page.module.css';
 
@@ -27,7 +27,20 @@ export default function PostFeed({ posts }) {
     return () => window.removeEventListener('scroll', handleScroll);
   }, [hasMore, page, restPosts]);
 
-  function loadMore() {
+//   function loadMore() {
+//     const nextBatch = restPosts.slice(page * postsPerPage, (page + 1) * postsPerPage);
+    
+//     if (nextBatch.length > 0) {
+//       setDisplayedPosts((prev) => [...prev, ...nextBatch]);
+//       setPage((prev) => prev + 1);
+//     }
+    
+//     if (displayedPosts.length + nextBatch.length >= restPosts.length) {
+//       setHasMore(false);
+//     }
+//   }
+
+ const loadMore = useCallback(() => {
     const nextBatch = restPosts.slice(page * postsPerPage, (page + 1) * postsPerPage);
     
     if (nextBatch.length > 0) {
@@ -38,7 +51,7 @@ export default function PostFeed({ posts }) {
     if (displayedPosts.length + nextBatch.length >= restPosts.length) {
       setHasMore(false);
     }
-  }
+  }, [page, restPosts, displayedPosts.length, postsPerPage]);
 
   if (!featuredPost) return null;
 
