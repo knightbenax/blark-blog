@@ -1,6 +1,6 @@
 ---
 title: "Exploring Black and White Photography: Capturing Emotion Through Shadows"
-excerpt: "Shadows are the soul of black and white photography. Without the distraction of color, shadows take on the role of storyteller—evoking emotion, shaping depth, and revealing hidden details."
+excerpt: "Shadows are the soul of black and white photography. Without the distraction of color, shadows take on the role of storyteller-evoking emotion, shaping depth, and revealing hidden details."
 date: "March 30, 2025"
 author: "Blark Team"
 tags: [black and white, photography tips, composition, lighting]

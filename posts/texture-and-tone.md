@@ -9,7 +9,7 @@ header: "https://getbasin.app/IMG_7305.jpeg"
 
 # Texture and Tone: Creating Depth in Black and White Photography
 
-Black and white photography is often praised for its simplicity and timelessness, but creating a *rich*, *engaging* image without color takes skill. With color gone, what’s left? **Texture and tone**—the subtle differences in light and surface that add visual interest and emotional weight.
+Black and white photography is often praised for its simplicity and timelessness, but creating a *rich*, *engaging* image without color takes skill. With color gone, what’s left? **Texture and tone**-the subtle differences in light and surface that add visual interest and emotional weight.
 
 In this guide, we’ll explore how to use texture and tone to create black and white photos that feel immersive and alive.
 
@@ -17,7 +17,7 @@ In this guide, we’ll explore how to use texture and tone to create black and w
 
 ## Why Texture and Tone Matter
 
-Without color, every bump, crack, wrinkle, and reflection takes on new importance. Texture invites the viewer to **feel** the image with their eyes—evoking the roughness of stone, the softness of skin, or the grit of a city street.
+Without color, every bump, crack, wrinkle, and reflection takes on new importance. Texture invites the viewer to **feel** the image with their eyes-evoking the roughness of stone, the softness of skin, or the grit of a city street.
 
 Tone, meanwhile, controls the **emotional depth** of a photo. High-key images (mostly light tones) feel airy or clean. Low-key images (mostly dark tones) feel moody or dramatic. A well-balanced tonal range can make an image feel three-dimensional and complete.
 
@@ -40,14 +40,14 @@ RAW files retain much more tonal information than JPEGs, which is critical for s
 <br/>
 
 ### 3. **Increase Clarity and Structure (Sparingly)**
-In post-processing, tools like **clarity**, **structure**, or **dehaze** can emphasize midtone contrast and pull texture from flat areas. Use them with care—too much, and the image can feel harsh or unnatural.
+In post-processing, tools like **clarity**, **structure**, or **dehaze** can emphasize midtone contrast and pull texture from flat areas. Use them with care-too much, and the image can feel harsh or unnatural.
 
 > **Tip:** Instead of maxing out clarity, combine it with local contrast adjustments and selective dodging/burning to emphasize key areas of texture.
 
 <br/>
 
 ### 4. **Dodge and Burn to Shape Tone**
-Dodging (lightening) and burning (darkening) allow you to manually sculpt the light in an image—bringing depth and subtle drama. It’s a classic darkroom technique that works wonders in digital editing.
+Dodging (lightening) and burning (darkening) allow you to manually sculpt the light in an image-bringing depth and subtle drama. It’s a classic darkroom technique that works wonders in digital editing.
 
 > **Tip:** In portraits, burn the edges of the face and dodge the highlights of the cheeks and eyes. In landscapes, burn the shadows in the foreground to pull the viewer deeper into the frame.
 
@@ -68,17 +68,17 @@ Certain subjects naturally lend themselves to texture-rich black and white image
 
 Once you’ve captured an image with strong texture and tone, editing becomes the second half of the creative process. Use curves to add gentle contrast, and pay attention to the **zones** (from pure black to pure white) to ensure your image has both punch and detail.
 
-Apps like **Blark** give you manual control over tone curves, exposure, highlights, and shadows—giving you everything you need to perfect the tonal range of your photo.
+Apps like **Blark** give you manual control over tone curves, exposure, highlights, and shadows-giving you everything you need to perfect the tonal range of your photo.
 
 <br/>
 
 ## Final Thoughts: Depth Without Color
 
-Texture and tone are more than technical tools—they’re a **language**. They allow you to communicate form, feeling, and presence through light alone.
+Texture and tone are more than technical tools-they’re a **language**. They allow you to communicate form, feeling, and presence through light alone.
 
 When you start paying close attention to the way surfaces catch the light, and how tones build structure and mood, your black and white images begin to take on a new level of depth and meaning.
 
 <br/>
 
 **Ready to capture texture and tone like never before?**  
-Download **Blark**—your ultimate tool for black and white photography—at [https://blark.app](https://blark.app).
+Download **Blark**-your ultimate tool for black and white photography-at [https://blark.app](https://blark.app).
