@@ -34,4 +34,5 @@ We’re also excited to introduce **Monochrome**, a new Blark magazine dedicated
 
 Blark continues to treat black-and-white photography as a craft, not a filter. Every update is guided by one goal: helping you see more clearly, move faster, and stay focused on what matters most - the image.
 <br/><br/>
-Update Blark today and keep shooting.
+
+Update Blark today and keep shooting. [Get Blark](https://blark.app)
