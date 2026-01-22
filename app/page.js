@@ -4,6 +4,12 @@ import { getSortedPostsData } from '@/lib/posts';
 
 export const metadata = {
   title: "Blark's Blog",
+  description: "Tips on how to get the most out of your black and white photography. Brought to you by Blark: Pro Black & White Camera App for iPhone (RAW & Manual)",
+  openGraph: {
+    title: "Blark's Blog",
+    description: "Tips on how to get the most out of your black and white photography. Brought to you by Blark: Pro Black & White Camera App for iPhone (RAW & Manual)",
+    type: 'website',
+  },
 };
 
 export default function HomePage() {
@@ -13,7 +19,7 @@ export default function HomePage() {
   return (
     <div className={styles.container}>
       <div className="header-floater-parent">
-        <img src="/blog/assets/logo.png" />
+        <img src="/blog/assets/logo.png" alt="Blark Logo" />
         <div className="header-floater">
           <a className="hfeatures" href="https://blark.app/#features" target="_blank">Features</a>
           <a className="hpricing"

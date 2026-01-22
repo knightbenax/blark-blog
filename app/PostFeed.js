@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import styles from './page.module.css';
+import Image from 'next/image';
 
 export default function PostFeed({ posts }) {
   const postsPerPage = 15;
@@ -60,7 +61,14 @@ export default function PostFeed({ posts }) {
       <div className={styles.featured}>
         
         <Link href={`/${featuredPost.slug}`} className={styles.featuredpost}>
-        <img src={featuredPost.header} className={styles.featuredheader} alt={featuredPost.title} />
+        <Image 
+          src={featuredPost.header} 
+          className={styles.featuredheader} 
+          alt={featuredPost.title} 
+          fill
+          priority
+          sizes="100vw"
+        />
           <div className={styles.featuredheaderinner}>
             <h2 className={styles.featuredTitle}>{featuredPost.title}</h2>
             <p className={styles.featuredExcerpt}>{featuredPost.excerpt}</p>
@@ -72,7 +80,15 @@ export default function PostFeed({ posts }) {
         {displayedPosts.map(({ slug, title, excerpt, header }) => (
           <li key={slug} className={styles.singlewordings}>
             <Link href={`/${slug}`}>
-              <img src={header} className={styles.singlewordingsheader} alt={title} />
+              <div className={styles.singlewordingsheader}>
+                <Image 
+                  src={header} 
+                  alt={title} 
+                  fill
+                  style={{ objectFit: 'cover' }}
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                />
+              </div>
               <div className={styles.singlewordingstitle}>{title}</div>
               <div style={{ color: 'gray' }} className={styles.singlewordingsbrief}>{excerpt}</div>
             </Link>
