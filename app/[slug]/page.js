@@ -1,6 +1,7 @@
 import { getPostData, getSortedPostsData } from '@/lib/posts';
 import { marked } from 'marked';
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './page.module.css';
 
 export async function generateStaticParams() {
@@ -13,35 +14,39 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }) {
   const { slug } = await params;
   const post = await getPostData(slug);
+  const siteUrl = 'https://blark.app';
+  const ogImage = post.header?.startsWith('http') ? post.header : `${siteUrl}${post.header}`;
 
   return {
-    title: post.title,
-    description: post.excerpt || '',
+    title: `${post.title} | Blark's Blog`,
+    description: post.excerpt || post.content.slice(0, 160).replace(/\n/g, ' '),
+    alternates: {
+      canonical: `${siteUrl}/blog/${post.slug}`,
+    },
     referrer: 'origin-when-cross-origin',
-  keywords: post.tags,
-  authors: [
-    { name: 'Blark Team', url: 'https://blark.app/blog' }
-  ],
-    openGraph: {
-    url: `https://blark.app/blog/${post.slug}`,
-    siteName: 'Monochrome Journal',
-    images: [
-      {
-        url: `${post.header}`,
-        // width: 800,
-        // height: 600,
-        alt: 'Blog Post Image',
-      },
+    keywords: post.tags,
+    authors: [
+      { name: 'Blark Team', url: 'https://blark.app/blog' }
     ],
-    locale: 'en_US',
-    type: 'article',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: post.title,
-    description:  post.excerpt || '',
-    images: `${post.header}`,
-  },
+    openGraph: {
+      url: `${siteUrl}/blog/${post.slug}`,
+      siteName: 'Monochrome Journal',
+      images: [
+        {
+          url: ogImage,
+          alt: post.title,
+        },
+      ],
+      locale: 'en_US',
+      type: 'article',
+      publishedTime: post.date,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description:  post.excerpt || post.content.slice(0, 160).replace(/\n/g, ' '),
+      images: [ogImage],
+    },
   };
 }
 
@@ -56,7 +61,7 @@ export default async function PostPage({ params }) {
 
 
 <div className="header-floater-parent">
-        <img src="/blog/assets/logo.png" />
+        <img src="/blog/assets/logo.png" alt="Blark Logo" />
         <div className="header-floater">
           <Link href="/" className='hblog' >Back to Blog</Link>
           <a className="hfeatures" href="https://blark.app/#features" target="_blank">Features</a>
@@ -73,7 +78,16 @@ export default async function PostPage({ params }) {
        <h1 style={{ fontSize: '2rem', fontWeight: '900', marginBottom: '5px' }}>{post.title}</h1>
       <div style={{ color: 'gray', marginBottom: '1rem' }}>{post.date}</div>
      </div>
-      <img src={post.header} className={styles.singleblogpostheader}/>
+      <div className={styles.singleblogpostheader}>
+        <Image 
+          src={post.header} 
+          alt={post.title}
+          fill
+          priority
+          style={{ objectFit: 'cover' }}
+          sizes="(max-width: 768px) 100vw, 720px"
+        />
+      </div>
       <div
         className={styles.singleblogpostcontent}
         dangerouslySetInnerHTML={{ __html: marked.parse(post.content) }}
