@@ -1,6 +1,6 @@
 ---
 title: "The Magic of Monochrome: How to See in Black and White Before You Shoot"
-excerpt: "Great black and white photos don’t happen by accident. Learn how to train your eyes to see light, shape, and contrast in monochrome before you even press the shutter."
+excerpt: "Great black and white photos don't happen by accident. Learn how to train your eyes to see light, shape, and contrast in monochrome before you even press the shutter."
 author: "Blark Team"
 date: "May 5, 2025"
 tags: [black and white, photography tips, composition, lighting]
@@ -14,7 +14,7 @@ So how do some photographers consistently create stunning monochrome images whil
 
 ## Why Pre-Visualizing in Black and White Matters
 
-Shooting in black and white isn’t as simple as applying a filter after the fact. Great monochrome images are *built* from an understanding of how scenes will translate without color. Will the elements still be distinct? Will the shadows tell a story? Will the texture add depth?
+Shooting in black and white isn't as simple as applying a filter after the fact. Great monochrome images are *built* from an understanding of how scenes will translate without color. Will the elements still be distinct? Will the shadows tell a story? Will the texture add depth?
 
 
 > **“Seeing in black and white means stripping away distractions and noticing the soul of the scene.”**
@@ -34,7 +34,7 @@ Color images are often enhanced by colorful lighting (like sunsets), but in blac
 > **Tip:** Early morning and late afternoon offer dynamic shadows. Practice shooting during these times to learn how light sculpts a scene in grayscale.
 <br/><br/>
 ### 3. **Use Contrast to Separate Subjects**
-Without color separation, your subject can blend into the background. Contrast-whether through brightness or texture-is how you guide the viewer’s eye in monochrome.
+Without color separation, your subject can blend into the background. Contrast-whether through brightness or texture-is how you guide the viewer's eye in monochrome.
 
 > **Tip:** Position your subject against a background with opposite tones (dark subject, light background or vice versa). Adjust your exposure to enhance separation.
 <br/><br/>
@@ -57,7 +57,7 @@ With practice, your instincts will sharpen-and your black-and-white shots will s
 <br/><br/>
 ## Final Thoughts: Vision Before Exposure
 
-The best black and white photographers don’t just convert images-they **see differently**. They visualize tone, embrace contrast, and compose with light and emotion.
+The best black and white photographers don't just convert images-they **see differently**. They visualize tone, embrace contrast, and compose with light and emotion.
 
 Next time you go out to shoot, challenge yourself: **Can I already see this in black and white?**
 

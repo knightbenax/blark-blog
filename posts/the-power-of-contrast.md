@@ -1,6 +1,6 @@
 ---
 title: "Mastering the Art of Black and White Photography: The Power of Contrast"
-excerpt: "Black and white photography isn’t just about stripping away color - it’s about mastering light, shadow, and emotion. In this guide, we explore how contrast brings depth and drama to monochrome images. From using natural lighting to emphasize textures to editing intentionally with the Blark app, learn how to craft compelling black and white photos that tell a story in every shade of gray."
+excerpt: "Black and white photography isn't just about stripping away color - it's about mastering light, shadow, and emotion. In this guide, we explore how contrast brings depth and drama to monochrome images. From using natural lighting to emphasize textures to editing intentionally with the Blark app, learn how to craft compelling black and white photos that tell a story in every shade of gray."
 date: "March 21, 2025"
 author: "Blark Team"
 tags: [black and white, photography tips, composition, lighting]

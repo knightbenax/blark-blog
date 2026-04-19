@@ -18,13 +18,13 @@ Shadows create depth, mystery, and visual tension. They help carve a scene into 
 
 Instead of seeing shadows as something that hides details, try seeing them as a tool that **simplifies the scene and highlights what matters most**.
 
-> **“Great black and white images aren’t just about light—they’re about how light disappears.”**
+> **“Great black and white images aren't just about light—they're about how light disappears.”**
 <br/><br/>
 
 ## 4 Ways to Use Shadows Creatively
 
 ### 1. **Use Shadows to Frame Your Subject**
-Shadows can act like a natural frame, guiding the viewer’s attention exactly where you want it to go.
+Shadows can act like a natural frame, guiding the viewer's attention exactly where you want it to go.
 
 > **Tip:** Look for shadows cast by buildings, trees, or windows and position your subject within the lit portion of the scene.
 <br/><br/>
@@ -61,8 +61,8 @@ You may start noticing compositions you would have completely missed before.
 
 ## Final Thoughts: Embrace the Darkness
 
-Black and white photography isn’t just about removing color—it’s about revealing structure, emotion, and atmosphere.
+Black and white photography isn't just about removing color—it's about revealing structure, emotion, and atmosphere.
 
 When you begin to embrace shadows instead of avoiding them, your images gain depth, mood, and a stronger sense of storytelling.
 
-Next time the light gets harsh and shadows stretch across the ground, don’t fight them. **Use them.**
+Next time the light gets harsh and shadows stretch across the ground, don't fight them. **Use them.**

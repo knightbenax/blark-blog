@@ -1,6 +1,6 @@
 ---
-title: "Why Flat Light Isn’t Boring - It’s a Secret Weapon for Black & White Photography"
-excerpt: "Overcast days might look dull, but for black and white photography, flat light is one of the most powerful creative tools you can use. Here’s how to make the most of soft, even light."
+title: "Why Flat Light Isn't Boring - It's a Secret Weapon for Black & White Photography"
+excerpt: "Overcast days might look dull, but for black and white photography, flat light is one of the most powerful creative tools you can use. Here's how to make the most of soft, even light."
 author: "Blark Team"
 date: "Nov 17, 2025"
 tags: [black and white, photography tips, lighting, flat light]
@@ -22,7 +22,7 @@ Flat light (usually from overcast skies or diffused indoor lighting) creates gen
 Without color to rely on, those subtle tonal shifts become the backbone of your composition.
 <br/><br/>
 
-### **1. It’s Perfect for Portraits**
+### **1. It's Perfect for Portraits**
 No squinting. No harsh shadows under the eyes. No blown-out highlights on skin.  
 Flat light gives you smooth, flattering tones that make subjects look clean and natural.
 
@@ -58,7 +58,7 @@ Ask yourself:
 - Would this scene look softer-or more dramatic-without harsh shadows?
 - How can I use subtlety instead of contrast?
 
-With a bit of practice, you’ll realize flat light isn’t boring at all-it’s expressive, cinematic, and incredibly freeing.
+With a bit of practice, you'll realize flat light isn't boring at all-it's expressive, cinematic, and incredibly freeing.
 <br/><br/>
 
 
@@ -71,6 +71,6 @@ Black and white photography thrives on tone and texture-not sunshine.
 Flat light gives you a unique opportunity to create images that feel calm, intimate, and emotionally rich.
 
 Next cloudy day?  
-Don’t wait for golden hour. Pick up Blark, and let the softness guide you.
+Don't wait for golden hour. Pick up Blark, and let the softness guide you.
 
 👉 Try **Blark** on iPhone: [https://blark.app](https://apps.apple.com/us/app/blark-pro-black-white-camera/id6742157071)

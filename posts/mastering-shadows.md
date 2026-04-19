@@ -1,6 +1,6 @@
 ---
 title: "Mastering Shadows: The Secret Ingredient in Black and White Photography"
-excerpt: "Shadows aren’t just dark areas - they’re powerful storytelling tools. Learn how to harness shadows for drama, depth, and emotion in your black and white photos."
+excerpt: "Shadows aren't just dark areas - they're powerful storytelling tools. Learn how to harness shadows for drama, depth, and emotion in your black and white photos."
 date: "August 11, 2025"
 author: "Blark Team"
 tags: [black and white, photography tips, composition, shadows]
@@ -14,9 +14,9 @@ In black and white photography, shadows are more than an absence of light - they
 <br/>
 
 ## 1. Why Shadows Matter
-Shadows create **depth** and **drama**. They guide the viewer’s eye, add contrast, and can transform a simple scene into something cinematic.
+Shadows create **depth** and **drama**. They guide the viewer's eye, add contrast, and can transform a simple scene into something cinematic.
 
-> In monochrome photography, shadows are not flaws - they’re features.
+> In monochrome photography, shadows are not flaws - they're features.
 
 <br/>
 
@@ -47,7 +47,7 @@ When shooting in **Blark**, try:
 <br/>
 
 ## Final Thoughts
-Shadows are not something to fear or hide - they’re the soul of black and white photography. Embrace them, play with them, and let them tell the parts of the story light cannot.
+Shadows are not something to fear or hide - they're the soul of black and white photography. Embrace them, play with them, and let them tell the parts of the story light cannot.
 
 <br/>
 
