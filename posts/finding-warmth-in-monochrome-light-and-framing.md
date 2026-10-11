@@ -7,7 +7,7 @@ tags: [black and white, photography tips, minimalism, composition, emotion, blar
 header: "https://getbasin.app/IMG_3590.jpg"
 ---
 
-When we think of black-and-white photography, our minds often drift to cold, stark, or dramatic street scenes. But monochrome has a quiet, cozy power: it can capture an incredible sense of intimacy and warmth. Stripping away the distraction of color forces us to focus on what truly matters—the play of light, the richness of textures, and the stories hidden in the way we frame our world.
+When we think of black-and-white photography, our minds often drift to cold, stark, or dramatic street scenes. But monochrome has a quiet, cozy power: it can capture an incredible sense of intimacy and warmth. Stripping away the distraction of color forces us to focus on what truly matters - the play of light, the richness of textures, and the stories hidden in the way we frame our world.
 <br/>
 <br/>
 Take a look at this quiet corner:

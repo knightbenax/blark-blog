@@ -1,6 +1,6 @@
 ---
 title: "The Power of Shadows: Using Darkness to Create Stronger Black and White Photos"
-excerpt: "In black and white photography, shadows aren't something to avoid—they're one of your strongest creative tools. Learn how to use darkness to add drama, depth, and storytelling to your photos."
+excerpt: "In black and white photography, shadows aren't something to avoid - they're one of your strongest creative tools. Learn how to use darkness to add drama, depth, and storytelling to your photos."
 author: "Blark Team"
 date: "Mar 11, 2026"
 tags: [black and white, photography tips, shadows, lighting]
@@ -18,7 +18,7 @@ Shadows create depth, mystery, and visual tension. They help carve a scene into 
 
 Instead of seeing shadows as something that hides details, try seeing them as a tool that **simplifies the scene and highlights what matters most**.
 
-> **“Great black and white images aren't just about light—they're about how light disappears.”**
+> **“Great black and white images aren't just about light - they're about how light disappears.”**
 <br/><br/>
 
 ## 4 Ways to Use Shadows Creatively
@@ -38,7 +38,7 @@ When a subject is placed in front of a bright background, it can turn into a str
 ### 3. **Look for Shadow Patterns**
 Objects like railings, window blinds, and fences can cast interesting shadow patterns that add rhythm and repetition to your composition.
 
-> **Tip:** Midday sunlight often produces the sharpest shadow patterns—perfect for graphic black and white shots.
+> **Tip:** Midday sunlight often produces the sharpest shadow patterns - perfect for graphic black and white shots.
 <br/><br/>
 
 ### 4. **Let Shadows Simplify the Scene**
@@ -61,7 +61,7 @@ You may start noticing compositions you would have completely missed before.
 
 ## Final Thoughts: Embrace the Darkness
 
-Black and white photography isn't just about removing color—it's about revealing structure, emotion, and atmosphere.
+Black and white photography isn't just about removing color - it's about revealing structure, emotion, and atmosphere.
 
 When you begin to embrace shadows instead of avoiding them, your images gain depth, mood, and a stronger sense of storytelling.
 
