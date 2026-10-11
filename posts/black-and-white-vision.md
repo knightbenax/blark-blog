@@ -8,7 +8,7 @@ header: "/blog/assets/blog/IMG_4368.JPG"
 ---
 
 When it comes to black and white photography, **the camera sees what you train your eyes to notice**. Unlike color photography, which often relies on vibrant tones to carry emotion and meaning, black and white strips everything down to the essentials: light, shadow, texture, and composition.
-<br/>
+
 So how do some photographers consistently create stunning monochrome images while others struggle to capture anything more than flat, lifeless grayscale? The answer lies in learning how to **see in black and white**-before you even lift your camera.
 <br/><br/>
 
