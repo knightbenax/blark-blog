@@ -4,7 +4,7 @@ excerpt: "There is a strange pressure that comes with being a photographer onlin
 author: "Blark Team"
 date: "Oct 11, 2026"
 tags: [black and white, photography tips, composition, lighting]
-header: "https://getbasin.app/oct2026/IMG_4152.HEIC"
+header: "https://getbasin.app/oct2026/IMG_4418.jpeg"
 ---
 
 There is a strange pressure that comes with being a photographer online. You always need something to post: a new photograph, a reel, a behind-the-scenes video, a carousel, a story, a location guide, a before-and-after edit, anything that keeps the account alive.
