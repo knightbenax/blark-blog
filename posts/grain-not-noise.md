@@ -1,5 +1,5 @@
 ---
-title: "Why Grain Isn't Noise — It's Character in Black and White Photography"
+title: "Why Grain Isn't Noise  -  It's Character in Black and White Photography"
 excerpt: "Grain is often seen as a flaw in digital photography, but in black and white, it can add depth, mood, and a timeless film-like quality. Here's how to use it intentionally."
 author: "Blark Team"
 date: "April 18, 2026"
@@ -28,7 +28,7 @@ Without color, your image relies entirely on tone and texture. Grain enhances bo
 ### 1. **Add Emotion Through Texture**
 Grain can make an image feel raw, nostalgic, or even cinematic. It softens perfection and introduces a sense of realism.
 
-> **Tip:** Portraits and street photography often benefit the most from subtle grain—it adds character without overwhelming the subject.
+> **Tip:** Portraits and street photography often benefit the most from subtle grain - it adds character without overwhelming the subject.
 <br/><br/>
 
 ### 2. **Use Grain to Enhance Mood**
